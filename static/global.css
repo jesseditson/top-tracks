@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #2A2B2A;
+  color: #DCF3F7;
+  font-family: serif;
+}
+
+h1, h2, h3 {
+  font-family: serif;
+}
+
+iframe {
+  border: none;
+}
+
+a {
+  color: #7adcec;
+  text-decoration: none;
+}
+a:active, a:hover {
+  color: #60acb9;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.layout > div {
+  padding: 2rem;
+}

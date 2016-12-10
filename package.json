@@ -1,0 +1,41 @@
+{
+  "name": "top-tracks",
+  "version": "0.1.0",
+  "description": "Find your top tracks for a given time period.",
+  "scripts": {
+    "test": "jest",
+    "dev": "next",
+    "deploy": "now",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseditson/top-tracks.git"
+  },
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jesseditson/top-tracks/issues"
+  },
+  "homepage": "https://github.com/jesseditson/top-tracks#readme",
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
+    "moment": "^2.17.1",
+    "next": "latest"
+  },
+  "devDependencies": {
+    "babel-jest": "^17.0.2",
+    "enzyme": "^2.6.0",
+    "jest": "^17.0.3",
+    "react": "^15.3.2",
+    "react-addons-test-utils": "^15.3.2",
+    "react-dom": "^15.3.2"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "react"
+    ]
+  }
+}
