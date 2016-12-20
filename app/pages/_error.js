@@ -1,5 +1,4 @@
 import React from 'react'
-import Layout from '../components/Layout'
 
 export default class Error extends React.Component {
   static getInitialProps ({ res, xhr }) {
@@ -8,7 +7,7 @@ export default class Error extends React.Component {
   }
 
   render () {
-    return (<Layout>
+    return (<div>
       <h1>Error</h1>
       <span>
         {
@@ -17,6 +16,6 @@ export default class Error extends React.Component {
           : 'An error occurred on client'
         }
       </span>
-    </Layout>)
+    </div>)
   }
 }

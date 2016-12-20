@@ -1,0 +1,32 @@
+{
+  "name": "top-tracks-api",
+  "version": "0.1.0",
+  "description": "Find your top tracks for a given time period.",
+  "main": "index.js",
+  "scripts": {
+    "test": "tape test/**/*.js",
+    "start": "micro -p 4000",
+    "dev": "nodemon node_modules/.bin/micro -p 4000"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jesseditson/top-tracks.git"
+  },
+  "author": "Jesse Ditson <jesse.ditson@gmail.com>",
+  "license": "BSD-3-Clause",
+  "bugs": {
+    "url": "https://github.com/jesseditson/top-tracks/issues"
+  },
+  "homepage": "https://github.com/jesseditson/top-tracks#readme",
+  "dependencies": {
+    "fs-readdir-recursive": "^1.0.0",
+    "fs-router": "^0.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "load-secrets": "^0.1.2",
+    "micro": "^6.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0",
+    "tape": "^4.6.3"
+  }
+}

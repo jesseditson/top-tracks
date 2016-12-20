@@ -1,5 +1,5 @@
 {
-  "name": "top-tracks",
+  "name": "top-tracks-app",
   "version": "0.1.0",
   "description": "Find your top tracks for a given time period.",
   "scripts": {
@@ -22,7 +22,8 @@
   "dependencies": {
     "isomorphic-fetch": "^2.2.1",
     "moment": "^2.17.1",
-    "next": "latest"
+    "next": "latest",
+    "store": "^1.3.20"
   },
   "devDependencies": {
     "babel-jest": "^17.0.2",
